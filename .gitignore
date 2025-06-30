@@ -1,0 +1,16 @@
+# Pythonキャッシュ無視
+__pycache__/
+*.py[cod]
+
+# エディタやOSの一時ファイル
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 出力先のimgは追跡したいけど、画像ファイルは無視
+img/*
+!img/.keep
+
+# その他除外したいものがあれば追加
+learned_models/
