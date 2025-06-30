@@ -23,3 +23,8 @@ pip install -r requirements.txt
 Dockerの場合
 docker build -t hand-tracker .
 docker run -it --device=/dev/video0 hand-tracker
+
+##　別途ダウンロード
+リンク先のlearned_modelsフォルダをダウンロードしてください。
+ダウンロードしたフォルダをeffectsフォルダにコピペし、fukuwarai.pyを実行してください
+https://drive.google.com/drive/u/2/folders/1AsS9qoXDdg31NaElCOnm_dafh9-5-h6m
