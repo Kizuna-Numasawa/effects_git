@@ -18,7 +18,6 @@ MediaPipeとOpenCVを使用しています。
 ```bash
 git clone https://github.com/Kizuna-Numasawa/effects_git.git
 cd effects_git
-pip install -r requirements.txt
 
 Dockerの場合
 docker build -t hand-tracker .
